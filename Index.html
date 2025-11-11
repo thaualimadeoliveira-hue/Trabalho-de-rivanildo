@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mundo da Mecânica - Explore Todos os Campos da Mecânica</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#137fec",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+            },
+            fontFamily: {
+              "display": ["Space Grotesk", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#111418] dark:text-white">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 w-full bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-800 px-4 sm:px-6 lg:px-10 py-3 max-w-7xl mx-auto">
+<div class="flex items-center gap-4 text-[#111418] dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-[#111418] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Mundo da Mecânica</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-center items-center gap-9">
+<a class="text-[#111418] dark:text-white text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Início</a>
+<a class="text-[#111418] dark:text-white text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Sobre</a>
+<a class="text-[#111418] dark:text-white text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Contato</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">Cadastre-se</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex flex-1 justify-center py-5 sm:px-6 lg:px-8">
+<div class="layout-content-container flex flex-col max-w-7xl flex-1">
+<section class="@container mb-8">
+<div class="p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 rounded-xl items-center justify-center p-4 text-center" data-alt="Abstract background image with gears and mechanical schematics" style='background-image: linear-gradient(rgba(16, 25, 34, 0.7) 0%, rgba(16, 25, 34, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDr87hwiF-h2CvVwTPmznZjD7_SdRPCNu8T8DmRdss8G-i8tni8LAZaicckpyIfbOMrjNjGPOA2M7jK32LEhkphUL7juF-mhybbB4xJpkxTxAApIKIKaqOVR_yGT1_M8bTzGPN0aIXqebLy1lXO7tPIny-ip-MVI2bgXtXPgjFyMfvgTaDG42C-6oghwDbcD08Ik_BtBuONQxVR3vGkv5F6pGYZZUrkTrvChK2F1oOgF84094WpFGMZWx_G7RFZfqSrllWPb7I-cg");'>
+<div class="flex flex-col gap-4 max-w-3xl">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                                        Explore o Mundo da Mecânica
+                                    </h1>
+<h2 class="text-gray-200 text-base font-normal leading-normal @[480px]:text-lg @[480px]:font-normal @[480px]:leading-normal">
+                                        Das engrenagens de um carro às leis do universo, descubra todos os campos da mecânica em um só lugar.
+                                    </h2>
+</div>
+<div class="w-full max-w-lg mt-4">
+<label class="flex flex-col min-w-40 h-14 w-full">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full shadow-lg">
+<div class="text-[#617589] flex bg-white items-center justify-center pl-4 rounded-l-lg border-r-0">
+<span class="material-symbols-outlined text-gray-500">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden text-[#111418] focus:outline-0 focus:ring-2 focus:ring-primary focus:ring-inset border-none bg-white h-full placeholder:text-[#617589] px-4 pl-2 text-base font-normal leading-normal" placeholder="Procure por um tópico específico..." value=""/>
+<button class="flex items-center justify-center rounded-r-lg bg-primary px-5 text-white font-bold hover:bg-primary/90 transition-colors">
+                                                Pesquisar
+                                            </button>
+</div>
+</label>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-8 px-4">
+<div class="flex flex-wrap gap-2 items-center">
+<a class="text-[#617589] dark:text-gray-400 text-base font-medium leading-normal hover:text-primary dark:hover:text-primary" href="#">Início</a>
+<span class="text-[#617589] dark:text-gray-400 text-base font-medium leading-normal">/</span>
+<a class="text-[#617589] dark:text-gray-400 text-base font-medium leading-normal hover:text-primary dark:hover:text-primary" href="#">Categorias</a>
+<span class="text-[#617589] dark:text-gray-400 text-base font-medium leading-normal">/</span>
+<span class="text-[#111418] dark:text-white text-base font-medium leading-normal">Toda a Mecânica</span>
+</div>
+</section>
+<section>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-6 p-4">
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-gray-800/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Abstract visualization of planetary orbits and forces." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC_CpM7KohzxLmFiixo_Hs33LgSYOysZHsOXoOOTC_SIMhhwoWTkgCo4B8RU1L8kEpjPQEMR8dQiOFdjNI0qTGWq2uXCM6bX10qT-I1JRflAegJKGASi4OfaMScenu8Pf8L_QT0-y3Dz6TTyyjrh_9Xp8zKbja9hQlosdMfbagMRXH02vTZwZY34qV-FD-j2kT1qgisI9dRTY00na1NLT3zGB7vmzWC8bdrIo4e_RpeVuV5R5zLncjsNh5NqrfYXDq-iuo51iU7CQ");'></div>
+<div class="p-4 pt-0">
+<p class="text-[#111418] dark:text-white text-lg font-bold leading-normal">Mecânica Clássica</p>
+<p class="text-[#617589] dark:text-gray-400 text-sm font-normal leading-normal mt-1">Newtoniana, Lagrangeana, Hamiltoniana</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-gray-800/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Close-up shot of a modern car engine." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC4STGBIot-Nr9rjcqsl50ste3GlpfudW88W3NxnZ0HqooYzMtSGc6otTpblc06vxPzvULpR49SWzDAlP9vKnzU8CxSPBqtOEmG61muRnri8VOG8pgWv4jyi5j21TtsZvPZeGFZz0WC_uEUSp0hJQIA1iGmDi4TGUqLwRZA0rM1aMQWojCLVeBFKX3puX2LlthJSv1EA487gG2BldzD2wDttaPkK6CLs_a89RdQfcNpV2M2iHil2vO1wC1UBRABTZrw6UknfZvT7Q");'></div>
+<div class="p-4 pt-0">
+<p class="text-[#111418] dark:text-white text-lg font-bold leading-normal">Mecânica Automotiva</p>
+<p class="text-[#617589] dark:text-gray-400 text-sm font-normal leading-normal mt-1">Motores, Transmissão, Freios</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-gray-800/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Industrial factory floor with large machinery and conveyor belts." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCUXucLTLtve3PXIqeQiAFqkX8F4vdYprCoyIDEp1WG-m3EJOHxOVLMvyjoYWO0StDe0dAq-otBXU8XXFyvviPerIWch1tesDLpJIpxsGIkynAJPKpZaB1tvBmwHz9iiEFVcNdHsUiNzZ52u-VL6D_YiQ-wSYu9v5SNASNbxfC1yaeXJeZvsg6zgZG6e4NeoOK97zw7Kfqa7K_EZ3gdhPPMcdJ19oqH6Td9WDetM6jQaIbAFKsSbeB2uNl3akc7F5u27tzECUhzyA");'></div>
+<div class="p-4 pt-0">
+<p class="text-[#111418] dark:text-white text-lg font-bold leading-normal">Mecânica Industrial</p>
+<p class="text-[#617589] dark:text-gray-400 text-sm font-normal leading-normal mt-1">Maquinaria, Automação, Manutenção</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-gray-800/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Water splashing and creating intricate patterns." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAKQziz5WkFep5NPfmbamr5t5w1yaoHR3jqahs5S1BlD3FgpvEoRDOZSzkk2dm6AoF3IlIbTuXThqFAIf-DwuERASYuP5qJQ4qg0TSVElGqNlp_7g7ODt988sETOTyWFPeY9hi57OxsjRofztm0ChNE6wpPOLjDupYMgPJThMr_3I0X3PZ5JtJrQUAwgwOzzlRPhC_uKKApjkMg-z44JH6Ukf8U-84r87EYaNn7EZm6_opIiqgaD9z3RkMng_hQJWg7_Wob1oQ-Rw");'></div>
+<div class="p-4 pt-0">
+<p class="text-[#111418] dark:text-white text-lg font-bold leading-normal">Mecânica dos Fluidos</p>
+<p class="text-[#617589] dark:text-gray-400 text-sm font-normal leading-normal mt-1">Hidrostática, Aerodinâmica</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-gray-800/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Artistic representation of atomic particles and quantum fields." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDfvD7r2s9rtWh6WHWeiix3Pt0pRygq1WTP_JIPnurXQz3TvD8zbSgNpr-M5JbVvfc4ZibzIUJU_5fRV_SpIzXfCoznIBj5WuWCkJtR_z0vHJR2Ac-a0JjQk9-YgXsD0w8wvYF-cPcGPceU0P9ktzJ10STHjF2t-WDz4552AzPptEn2KqaIHaIUBSqCGy2KHiS5NfWNcZe6a-eLevNiPecKwJP-lJ3uiNn6XERqcwNMGUAISk0E5lL0gcwrS2XSbLEmGYGwssTd8A");'></div>
+<div class="p-4 pt-0">
+<p class="text-[#111418] dark:text-white text-lg font-bold leading-normal">Mecânica Quântica</p>
+<p class="text-[#617589] dark:text-gray-400 text-sm font-normal leading-normal mt-1">Dualidade onda-partícula, Campos quânticos</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-gray-800/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Athlete in motion, with lines illustrating the biomechanics of their movement." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAbX9a4aBZb6wmva7HasIVi5mQD2oTJCBxpfTJX1iSJHFBDoeBlsTr2nM6H4tDqaQGB25xBDQymVmeYKJA2uuVlquj9cMVBJB3m3igIn1arOSdudvP-FAXr_G_srAQDdXsTi1kre8fQra5mxD61EvC2uKWTX04RCoFR-sv6pb1PXFTJljcYQF6hEsl-rYXm2weO_XY396prhx17FC5DIdS8aosiYoefWxdWTV46Fj_33-4opCOKpoSEMDsc7zJmThEgobwTUhdYjg");'></div>
+<div class="p-4 pt-0">
+<p class="text-[#111418] dark:text-white text-lg font-bold leading-normal">Biomecânica</p>
+<p class="text-[#617589] dark:text-gray-400 text-sm font-normal leading-normal mt-1">Movimento humano, Cinesiologia</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="w-full bg-white dark:bg-gray-800/50 mt-12 border-t border-gray-200 dark:border-gray-800">
+<div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-4 text-[#111418] dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-[#111418] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Mundo da Mecânica</h2>
+</div>
+<div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+<a class="text-sm text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary" href="#">Sobre Nós</a>
+<a class="text-sm text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary" href="#">Contato</a>
+<a class="text-sm text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary" href="#">Política de Privacidade</a>
+<a class="text-sm text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary" href="#">Mapa do Site</a>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-400 text-center md:text-right">© 2024 Mundo da Mecânica. Todos os direitos reservados.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
